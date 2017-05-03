@@ -1,0 +1,263 @@
+body
+{
+margin:0px;
+padding:0px;
+background-color:#fff;
+}
+ 
+#container 
+{
+margin: 0px auto;
+padding:0px;
+font-family:tahoma;font-size:16px;
+font-weight:normal;
+background-color:#fff;
+}
+
+#main 
+{
+color:#022b46;
+text-align:left;
+height:100%;
+background-color:#fff;
+margin:0px;
+padding-left:25px;
+padding-right: 20px;
+}
+
+#header 
+{
+cursor:pointer;
+font-size:60px;
+font-weight:bold;
+color:#fff;
+text-shadow: 1px 1px 7px #333;
+text-align:center;
+margin:0px;
+padding:0px;
+border-top-style:solid;
+border-top-color:#022b46;
+border-top-width:5px;
+background-color:#436e92; 
+background: -webkit-linear-gradient(left top,#436e92,#fff); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right,#436e92,#fff); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right,#436e92,#fff); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right,#436e92,#fff); /* Standard syntax (must be last) */
+}
+
+.acewhite {
+font-weight:normal;
+color:#fff;
+}
+
+#menu {
+font-size:14px;
+text-align:center;
+color:#fff;
+margin:0px;
+padding:0px;
+padding-top:20px;
+padding-bottom:10px;
+border-bottom-style:solid;
+border-bottom-width:2px;
+border-top-width:2px;
+border-top-style:solid;
+border-top-color:#022b46;
+border-bottom-color:#022b46;
+background-color:#004000;
+background: -webkit-linear-gradient(left top,#8a9f4a,#373e22); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right,#8a9f4a,#373e22); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right,#8a9f4a,#373e22); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right, #8a9f4a, #373e22); /* Standard syntax (must be last) */
+}
+
+#menulist 
+{
+font-size:16px;
+font-weight:normal;
+background-color:#066fb3;
+color:#fff;
+height:100%;
+position:relative;
+float:left;
+text-align:left;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:10px;
+margin:0px;
+}
+
+#contactform
+{
+width:80%;
+border-radius:10px;
+border-style:solid;
+border-width:5px;
+border-color:#8a9f4a;
+color:#022b46;
+padding:45px;
+font-weight:bold;
+background: -webkit-linear-gradient(top left, #436e92, #fff);
+background: -o-linear-gradient(top left, #436e92, #fff);
+background: linear-gradient(to bottom right, #436e92, #fff); /* Standard syntax (must be last) */
+}
+
+#footer 
+{
+color:#ccc;
+position:relative;
+float:left;
+text-align:left;
+margin:0px;
+padding:20px;
+background-color:#066fb3;
+border-top-width:2px;
+border-top-style:solid;
+border-top-color:#436e92;
+background: -webkit-linear-gradient(left top,#000,#066fb3); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right,#000,#066fb3); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right,#000,#066fb3); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right,#000,#066fb3); /* Standard syntax (must be last) */
+}
+
+#footer-copy
+{
+color:#ddd;
+background-color:#222;
+width:100%;
+position:relative;
+float:left;
+text-align:center;
+margin:0px;
+padding:20px;
+}
+
+#copy
+{
+background-color:#ADADB1;
+width:100%;
+position:relative;
+float:left;
+height:40px;
+text-align:center;
+border-top-style:solid;
+border-top-width:7px;
+border-top-color:#31313D;
+padding:0px;
+margin:0px;
+}
+
+ul 
+{
+list-style-type: none;
+margin: 0px;
+padding: 5px;
+}
+
+li.inline
+{
+display: inline;
+}
+
+h
+{
+font-size:36px;
+font-weight:bold;
+}
+
+.pgcontentheader {
+	font-size:24px;
+	font-weight:bold;
+}
+
+.serviceoffered {
+	font-weight:bold;
+}
+ 
+.bgblue {
+	background-color:#d6dfe7;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.bgltblue {
+	background-color:#ebeff3;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+h2 {
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    border-radius:10px;
+    border: 2px solid #022b46;
+    padding:15px;
+    width: 235px; /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */
+    background: -webkit-linear-gradient(top left, #436e92, #fff);
+    background: -o-linear-gradient(top left, #436e92, #fff);
+    background: linear-gradient(to bottom right, #436e92, #fff); /* Standard syntax (must be last) */
+}
+
+h4
+{
+color:red;background-color:white;
+}
+
+.error{color:red;}
+
+/* photos page */
+.small {
+    background:#d6dfe7;
+    margin:15px;
+    padding:8px;
+    border: 2px solid #8a9f4a;
+    width:145px;
+	cursor:pointer;
+}
+
+/* The Modal (background) */
+.modalBG {
+    display: none;
+    position: fixed; 
+    z-index: 25; 
+    padding-top: 50px; 
+    padding-left:0px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.3); 
+}
+
+/* Modal Content */
+.modalPage {
+    background-color: #fff;
+    border: 5px solid #8a9f4a;
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    border-radius:25px;
+}
+
+/* The Close Button - modal */
+.close {
+    color: #333;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #241438;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:link {color:#fff;text-decoration:none;font-weight:bold;} 
+a:visited {color:#b0c2d1;text-decoration:none;font-weight:bold;}  
+a:hover {color:#e8bc6f;text-decoration:underline;font-weight:bold;}
+a:active {color:#8a9f4a;text-decoration:none;font-weight:bold;}
+

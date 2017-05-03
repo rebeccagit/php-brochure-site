@@ -1,0 +1,32 @@
+#main 
+{
+color:#27374A;
+text-align:left;
+height:100%;
+position:relative;
+float:left;
+background-color:#fff;
+margin:0px;
+padding-left:100px;
+padding-right:200px;
+}
+
+#element_to_pop_up, #element_to_pop_up2, #element_to_pop_up3, #element_to_pop_up4,
+#element_to_pop_up5, #element_to_pop_up6, #element_to_pop_up7, #element_to_pop_up8,
+#element_to_pop_up9 { 
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none; 
+    padding:20px;
+    min-width:400px;
+    min-height: 180px;
+}
+
+.b-close{
+    cursor:pointer;
+    position:absolute;
+    right:10px;
+    top:5px;
+}
+
