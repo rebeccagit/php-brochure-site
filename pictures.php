@@ -43,16 +43,16 @@
                     <div class="row">
                         <div class="col-md-2"></div>                        
                         <div class="col-md-2 small" id="one" onclick="getid(this)">
-                            <img src="pictures/samplepicr.png" alt="Design" style="width:125px;"><br /><br/>
+                            <img src="pictures/samplepicone.png" alt="Design" style="width:125px;"><br /><br/>
                             <p>Random text random text random text random text.</p><br />
                         </div>
                         <div class="col-md-2 small" id="two" onclick="getid(this)">
-                            <img src="pictures/samplepicr.png" alt="Design" style="width:125px;"><br /><br/>
+                            <img src="pictures/samplepictwo.png" alt="Design" style="width:125px;"><br /><br/>
 							<p>Random text random text random text random text.</p><br />
 							
                         </div>
                         <div class="col-md-2 small" id="three" onclick="getid(this)">
-                            <img src="pictures/samplepicr.png" alt="Design" style="width:125px;"><br /><br/>
+                            <img src="pictures/samplepicthree.png" alt="Design" style="width:125px;"><br /><br/>
 							 <p>Random text random text random text random text.</p><br />
                         </div>                
                         <div class="col-md-4"></div>
@@ -63,13 +63,13 @@
                      <div class="row">
                         <div class="col-md-2"></div>                        
                         <div class="col-md-2 small" id="four" onclick="getid(this)">
-                            <img src="pictures/samplepicr.png" alt="Design" style="width:125px;">
+                            <img src="pictures/samplepicfour.png" alt="Design" style="width:125px;">
                         </div>
                         <div class="col-md-2 small" id="five" onclick="getid(this)">
-                            <img src="pictures/samplepicr.png" alt="Design" style="width:125px;">
+                            <img src="pictures/samplepicfive.png" alt="Design" style="width:125px;">
                         </div>
                         <div class="col-md-2 small" id="six" onclick="getid(this)">  
-                            <img src="pictures/samplepicr.png" alt="Design" style="width:125px;">
+                            <img src="pictures/samplepicsix.png" alt="Design" style="width:125px;">
                         </div>                        
                         <div class="col-md-4"></div>
                     </div>
@@ -79,13 +79,13 @@
                     <div class="row">
                         <div class="col-md-2"></div>                         
                         <div class="col-md-2 small" id="seven" onmouseover="getid(this)">
-                            <img src="pictures/samplepicr.png" alt="Design" style="width:125px;">
+                            <img src="pictures/samplepicseven.png" alt="Design" style="width:125px;">
                         </div>
                         <div class="col-md-2 small" id="eight" onmouseover="getid(this)">
-                            <img src="pictures/samplepicr.png" alt="Design" style="width:125px;">
+                            <img src="pictures/samplepiceight.png" alt="Design" style="width:125px;">
                         </div>
                         <div class="col-md-2 small" id="nine" onmouseover="getid(this)">  
-                            <img src="pictures/samplepicr.png" alt="Design" style="width:125px;">
+                            <img src="pictures/samplepicnine.png" alt="Design" style="width:125px;">
                         </div>
                         <div class="col-md-4"></div>
                     </div>
@@ -119,21 +119,33 @@
 
 <script>
     function getid(obj) {
-        let what = obj.id;
-        //alert(obj.id); 
-        modal.style.display = "block";
+        let imageid = obj.id;
         let elem = document.createElement("img");
-           
-        if (obj.id == what) {              
-			elem.setAttribute("src", "pictures/samplepicr.png");
-            document.getElementById("caption").innerHTML = what + " Random text random text random text random text.";   
+		
+		let theimage = { 
+			"one" : "pictures/samplepicone.png", 
+			"two" : "pictures/samplepictwo.png", 
+			"three" : "pictures/samplepicthree.png", 
+			"four" : "pictures/samplepicfour.png", 
+			"five" : "pictures/samplepicfive.png", 
+			"six" : "pictures/samplepicsix.png",
+			"seven" : "pictures/samplepicseven.png", 
+			"eight" : "pictures/samplepiceight.png", 
+			"nine" : "pictures/samplepicnine.png"
+			};
+			
+		modal.style.display = "block";
+
+        if (imageid) {              
+			elem.setAttribute("src", theimage[imageid]);
+            document.getElementById("caption").innerHTML = "Random text random text random text random text.";   
             }
                                             
             elem.setAttribute("height", "60%");
-            elem.setAttribute("width", "60%");
+            elem.setAttribute("width", "80%");
             elem.setAttribute("alt", "Flower");
             document.getElementById("largeImage").appendChild(elem);
-        }
+        } 
 
     const modal = document.getElementById('popupModal');
     const closeModal = document.getElementsByClassName("close")[0];        
