@@ -40,11 +40,11 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-4">
-                <img src="pictures/samplepicr.png" alt="Company A  Design" style="width:400">
+                <img src="pictures/samplepicnine.png" alt="Company A  Design" width="400">
                 </div>
                 <div class="col-md-1"></div>                
                 <div class="col-md-4">
-                <img src="pictures/samplepicr.png" alt="Company A  Design" style="width:400">
+                <img src="pictures/samplepiceight.png" alt="Company A  Design" width="400">
                 </div>
                 <div class="col-md-2"></div>
             </div>
@@ -54,11 +54,11 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-4">
-                <img src="pictures/samplepicr.png" alt="Company A  Design" style="width:400">
+                <img src="pictures/samplepicfive.png" alt="Company A  Design" width="400">
                 </div>
                 <div class="col-md-1"></div>                
                 <div class="col-md-4">
-                <img src="pictures/samplepicr.png" alt="Company A  Design" style="width:400">
+                <img src="pictures/samplepicthree.png" alt="Company A  Design" width="400">
                 </div>
                 <div class="col-md-2"></div>
             </div>
@@ -68,11 +68,11 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-4">
-                <img src="pictures/samplepicr.png" alt="Company A  Design" style="width:400">
+                <img src="pictures/samplepicfour.png" alt="Company A  Design" width="400">
                 </div>
                 <div class="col-md-1"></div>                
                 <div class="col-md-4">
-                <img src="pictures/samplepicr.png" alt="Company A  Design" style="width:400">
+                <img src="pictures/samplepicseven.png" alt="Company A  Design" width="400">
                 </div>
                 <div class="col-md-2"></div>
             </div>

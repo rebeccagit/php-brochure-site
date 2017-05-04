@@ -212,6 +212,7 @@ color:red;background-color:white;
     padding:8px;
     border: 2px solid #8a9f4a;
     width:145px;
+	height: 220px;
 	cursor:pointer;
 }
 
@@ -237,7 +238,7 @@ color:red;background-color:white;
     border: 5px solid #8a9f4a;
     margin: auto;
     padding: 10px;
-    width: 80%;
+    width: 65%;
     border-radius:25px;
 }
 
